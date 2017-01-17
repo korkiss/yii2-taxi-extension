@@ -1,0 +1,21 @@
+{
+  "name": "korkiss/yii2-taxi-extension",
+  "description": "Parser for Moscow taxi SOAP service",
+  "type": "yii2-extension",
+  "keywords": ["yii2", "taxi", "moscow"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Boris Shutov",
+      "email": "korkiss@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "korkiss\\": ""
+    }
+  }
+}
